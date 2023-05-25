@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../././../Fonts/Ubuntu-Regular.ttf");
+}
+
+body{
+    /*пока как заглушку для меню поставил в background-image*/
+    background-image: url("../../img/slide-1-1024x634.jpg"); 
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
