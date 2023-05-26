@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: #3f3640;
     position: fixed;
     width: 100%;
     transition: .5s;
@@ -14,7 +13,8 @@
 }
 
 .header_item img{
-    padding: 23px 0 30px; 
+    padding: 10px 0 30px; 
+    width: 25vw;
 }
 
 .header_item a{  
@@ -22,7 +22,8 @@
     display: block;
     padding: 7px 23px 30px 23px;
     color: #fff;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.7vw;
     text-transform: uppercase;
     font-family: "Ubuntu", Sans-serif;
     font-weight: bold;
@@ -30,8 +31,6 @@
     transition: .2s;
 }
 
-.header_item a:hover{
+.header_item a:hover, .check_url{
     border-bottom:3px solid #fff;
-    padding-bottom: 3px;
 }
-

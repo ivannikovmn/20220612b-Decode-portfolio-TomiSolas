@@ -1,0 +1,1 @@
+document.getElementById("header").style.backgroundImage = "url('img/notindex_header.jpg')";

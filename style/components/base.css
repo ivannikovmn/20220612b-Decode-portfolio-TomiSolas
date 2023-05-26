@@ -1,14 +1,31 @@
 @font-face {
     font-family: "Ubuntu";
     src: url("../././../Fonts/Ubuntu-Regular.ttf");
+    font-family: "Raleway-Bold";
+    src: url("../././../Fonts/static/Raleway-Bold.ttf");  
 }
 
-body{
-    /*пока как заглушку для меню поставил в background-image*/
-    background-image: url("../../img/slide-1-1024x634.jpg"); 
+ /*пока как заглушку для меню поставил в background-image*/
+/* .slider_temp{
+    background-image: url("../../img/main-1.jpg"); 
     background-repeat: no-repeat;
-}
+    background-size: contain;
+} */
 
 a{
     text-decoration: none;
+}
+
+.header{
+    z-index: 2;
+}
+
+.container{
+    /* position: relative;
+    top: -140px;
+    z-index: -1; */
+    /* padding: 135px 0 0 0; */
+    font-family: "Raleway-Bold", Sans-serif;
+    position: relative;
+    z-index: 1;
 }
