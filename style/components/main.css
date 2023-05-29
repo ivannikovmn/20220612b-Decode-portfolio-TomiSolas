@@ -9,18 +9,30 @@
     /* height: 130vh; */
 }
 
-.main-slider-item{
-    /* width: 100%; */
-    /* height: 130vh; */
-    height: 143%; 
-    /* position: relative; */
+.main-slider-item , .main-welcome{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
     text-align: center;
     text-transform: uppercase; 
-    object-fit: cover;  
+}
+
+.main-slider-item{
+    background-image: url("/img/main1.jpg");   
+    /* height: 143%; */
+    height: 60vw;
+}
+
+.main-welcome{
+    /* padding: 0.7vw; */
+    background-image: url("/img/main2.jpg");
+    width: 100%;
+    height: 35vw;
 }
 
 .main-slider-item > img{
@@ -67,45 +79,16 @@
     border: 2px solid #ec7a5c;
 }
 
-.main-welcome{
-    background-image: url("/img/main2.jpg");
-    width: 100%;
-    height: 35vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.main-welcome h2{
-    font-size: 5vw;
-    padding-bottom: 20px;
-    /* border-bottom:3px solid #fff; */
-}
-
 .main-welcome-dash{
     width: 18vw;
-    height: 2px;
     background-color: #fff;
-    align-content: center;
-}
-
-.main-welcome h4{
-    font-size: 1.4vw;
-    padding-bottom: 20px;
-    padding-top: 15px;
 }
 
 .main-welcome p{
+    padding: 1.2vw;
     text-transform: none;
     font-size: 1.2vw;
     font-family: Sans-serif;
-    line-height: 15px;
-    
+    /* line-height: 15px; */
+    line-height: 1.6vw;  
 }

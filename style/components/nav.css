@@ -1,16 +1,17 @@
 .nav{
     background-color: #ec9c5c;
-    padding: 200px 0 55px 10px;
-    /* font-size: 30px; */
-    font-size: 3vw;
-    line-height: 1.2em;
+    padding: 29vh 1vw 10vh;
     font-weight: 1000;
     text-transform: uppercase;
     color: #fff;
 }
 
+.nav p:nth-child(1){
+    font-size: 3vw;
+    line-height: 1.2em;
+}
+
 .nav p:nth-child(2){
-    /* font-size: 25px; */
     font-size: 2.5vw;
 }
 

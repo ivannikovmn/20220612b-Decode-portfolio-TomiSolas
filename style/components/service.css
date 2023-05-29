@@ -3,13 +3,24 @@
     flex-direction: column;
     align-items: center;
     color: #3f3640;
-    padding: 10px;
+    /* padding: 20px; */
+    padding: 2.5vw;
+    background-image: url("../../img/services.webp");
 }
 
-.service-items{
+.service-items, .services-more{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.services-more{
+    background-image: url("../../img/testimonials_item-services-more.webp");
+    background-size: cover;    
+    background-attachment: fixed;
+    padding: 1.5vw;
+
+    /* justify-content: center; */
 }
 
 .service-icon{
@@ -20,18 +31,55 @@
     width: 30%;
 }
 
-.services h2{
-    font-size: 5vw;
-    text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.services-more-item{
+    width: calc(30.33% - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5vw; 
+}
+
+.services-more-item div{
+    display: flex;
+    justify-content: center;
+}
+
+.services-more-item h2{ 
+    color: #fff;
+    padding: 1.5vw; 
+}
+
+.services-more-item h3{
+    padding: 1.5vw; 
+    color: #ec9c5c;
+}
+
+.services-more-item p{
+   padding-bottom: 1.5vw;
+   color: #fff;
+}
+
+.services-more-item-icons{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #000;
+    background-color: #ec9c5c;
+}
+
+.services-more-dash{
+    width: 18vw;
+    background-color: #fff;
 }
 
 .services-dash{
     width: 18vw;
-    height: 2px;
     background-color: #3f3640;
-    align-content: center;
 }
 
 .service-icon i{
@@ -48,8 +96,6 @@
 }  
 
 .service-items h3{
-    font-size: 2.2vw;
-    text-transform: uppercase;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
@@ -62,3 +108,4 @@
     padding-left: 40px;
     padding-right: 20px;
 }
+
