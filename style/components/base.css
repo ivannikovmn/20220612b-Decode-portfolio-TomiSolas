@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Ubuntu";
-    src: url("../././../Fonts/Ubuntu-Regular.ttf");
+    src: url("../../Fonts/Ubuntu-Regular.ttf");
     font-family: "Raleway-Bold";
-    src: url("../././../Fonts/static/Raleway-Bold.ttf");  
+    src: url("../../Fonts/static/Raleway-Bold.ttf");  
 }
 
  /*пока как заглушку для меню поставил в background-image*/

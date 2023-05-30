@@ -35,8 +35,25 @@
     border-bottom:3px solid #fff;
 }
 
-@media(max-width:1120px){
-    #header{
+/* @media(max-width:980px){
+    .header{
         background-color: #3f3640;
+    }
+} */
+
+.header-adaptive{
+    display: none;
+}
+
+ @media(max-width:980px){
+    .header-adaptive{
+        display: block;
+        color: #fff;
+        position: absolute;
+        top: 100%;
+        left: 2%;
+    }
+    .header div:nth-child(3) {
+        display: none;
     }
 }

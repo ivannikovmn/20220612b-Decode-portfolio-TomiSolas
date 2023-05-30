@@ -1,0 +1,43 @@
+.briefcases{
+    background-image: url("../../img/testimonials_item-services-more.webp");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* align-content: center; */
+    color: #fff;
+
+}
+
+.briefcase{
+    display: flex;
+    margin-top: 3vw;
+    padding: 1vw;
+}
+
+.briefcase_item{
+    padding: 1vw;
+    text-align: center;  
+    
+}
+
+.briefcase_item img{
+    width: 30vw;
+}
+
+.briefcase_item p{
+    padding: 1.5vw 0 0.5vw 0;
+    text-transform: uppercase; 
+    background-color: #fff;
+    color: #000;  
+    font-size: 1.5vw;
+}
+
+.briefcase_item div{
+    padding: 0.5vw 0 1.5vw 0;
+    background-color: #fff;
+    color: #ec9c5c;
+    font-size: 1.2vw;
+
+}

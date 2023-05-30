@@ -1,0 +1,29 @@
+.footer{
+    color:  #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-family: "Raleway-Bold", Sans-serif;
+}
+
+.footer-map {
+    position: relative;
+    filter: brightness(80%);
+    opacity: .8;
+}
+
+.footer-index {
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    /* background-color: rgba(0,0,0, .3); */
+    background-color: rgba(255,255,255, .1);
+    padding: 10vh 0;
+    width: 100%;  
+}
+
+.footer-no-index {
+    background-color: #777777;
+    padding: 5vh 0;
+}

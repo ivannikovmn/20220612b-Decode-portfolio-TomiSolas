@@ -1,0 +1,46 @@
+.people{
+    /* padding: 3vh; */
+    display: flex;
+    justify-content: space-between;
+    height: 59.6vh;
+}
+
+.people-image, .people-text{
+    /* width: calc(50% - 3vh); */
+}
+
+.people-image img{
+    width: 100%;
+    object-fit: cover; 
+}
+
+.people-text{
+    padding: 0 5%;
+}
+
+.people-text h2, .people-info h2{
+    font-size: 5vw;
+}
+
+.people-text p{
+    padding-bottom: .5vw;
+}
+
+.people-info{
+    display: flex;
+    /* padding: 3vw; */
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.people-info span{
+    font-size: 1.2vw;
+    color: #aaa;
+}
+
+.people-info img {
+    padding-top: 5.5vw;
+    padding-right: 1.5vw;
+    
+}
+
