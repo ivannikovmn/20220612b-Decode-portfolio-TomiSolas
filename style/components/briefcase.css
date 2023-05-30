@@ -38,6 +38,24 @@
     padding: 0.5vw 0 1.5vw 0;
     background-color: #fff;
     color: #ec9c5c;
-    font-size: 1.2vw;
+    font-size: 1.2vw
+}
 
+@media(max-width:735px){
+    .briefcase{
+        display: block;
+    }
+    .briefcases h2{
+        font-size: 9.4vw;
+    }
+    .briefcase_item img{
+        width: 90vw;
+    }
+    .briefcase_item p{
+        font-size: 3.2vw;
+        line-height: 4.1vw;
+    }
+    .briefcase_item div{
+        font-size: 1.8vw;
+    }
 }

@@ -27,3 +27,12 @@
     background-color: #777777;
     padding: 5vh 0;
 }
+
+@media(max-width:735px){
+    .footer{
+        font-size: 3.1vh;
+    }
+    .footer-index {
+        padding: 27vh 0;
+    }
+}

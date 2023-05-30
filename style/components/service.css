@@ -109,3 +109,28 @@
     padding-right: 20px;
 }
 
+@media(max-width:735px){
+    .services h2{
+        font-size: 9.8vw;
+    }
+    .service-items{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .service-icon{
+        width: 100%; 
+    }
+    
+    .service-item{
+        width: 95%;
+    }
+    .service-item h3{
+        font-size: 3.8vw;
+    }
+    .service-item p{
+        font-size: 3.2vw;
+        line-height: 4.1vw;
+    }
+}

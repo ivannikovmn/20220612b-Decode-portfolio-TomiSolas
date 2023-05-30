@@ -1,0 +1,37 @@
+.faces{
+    background-image: url("../../img/faces.webp");
+}
+
+.faces-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.faces-dash{
+    width: 18vw;
+    background-color: #fff;
+}
+
+.faces-body{
+    display: flex;
+    justify-content: center;
+}
+
+.face_item{
+    background-color: #fff;
+    margin: 4.0vh 1.0vw;
+    text-transform: uppercase;
+}
+
+.face_item div{
+    padding: 2vh 0 1vh 2vw ;
+    color: #0088cc;
+    font-size: 2.2vw;
+}
+
+.face_item p{
+    padding: 0vh 0 1vh 2vw ;
+}

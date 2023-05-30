@@ -66,3 +66,32 @@
     font-size: 1.7vw;
     padding: 4vh 0 10vh 0;
 }
+
+@media(max-width:735px){
+    .testimonials_header
+    {
+        display: block;
+    }
+    .testimonials_header h2{
+        font-size: 9.4vw;
+    }
+    
+    .testimonials_header h3{
+        font-size: 2.2vw;
+    }
+    .testimonials-dash{
+        width: 20vw;
+        background-color: #fff;
+    }
+    .testimonials_item h2{
+        font-size: 9.8vw;
+    }
+    .testimonials_item p{
+        width: 80%;
+        font-size: 3.2vw;
+        line-height: 4.1vw;
+    }
+    .testimonials_item span{
+        font-size: 2.7vw;
+    }
+}

@@ -56,3 +56,19 @@ p{
     font-size: 1.2vw;
     line-height: 2.2vh;
 }
+
+.read-more-button{
+    font-family: Sans-serif;
+    border: 2px solid #fff;
+    padding: 20px 35px;
+}
+
+.read-more-button a{
+    color: #fff;
+}
+
+.read-more-button:hover{
+    background-color: #ec7a5c;
+    border: 2px solid #ec7a5c;
+}
+

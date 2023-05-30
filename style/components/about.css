@@ -7,11 +7,13 @@
 }
 
 .about-me img{
-    padding: 8vh;
+    padding-top: 2vh;
+    width: 98%;
+
 }
 
 .about-me h3{
-  padding-bottom: 4vh;  
+  padding: 4vh;  
   width: 90%;
 }
 

@@ -34,3 +34,16 @@
     background-color: #fff;
     color: #ec7a5c;
 }
+
+@media(max-width:735px){
+    .networkings div{
+        padding: 7.7vw 0;
+    }
+    .networkings{
+        font-size: 3.2vw;
+    }
+    .networkings a{
+        border: 2px solid #fff;
+        padding: 2.0vw 8.0vw;
+    }
+}

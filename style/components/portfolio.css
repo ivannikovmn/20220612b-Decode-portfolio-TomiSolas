@@ -116,3 +116,8 @@
     color: #000;
 }
 
+@media(max-width:735px){
+    .portfolio h2{
+        font-size: 9.4vw;
+    }
+}
