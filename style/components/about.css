@@ -1,24 +1,38 @@
-.about-me{
+.about{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url("../../img/about_me2.webp");
+    background-size: cover;
     text-align: center;
 }
 
-.about-me img{
+.about img{
     padding-top: 2vh;
     width: 98%;
 
 }
 
-.about-me h3{
+.about h3{
   padding: 4vh;  
   width: 90%;
 }
 
-.about-me p{
+.about p{
     width: 90%;
     padding-bottom: 2vh;
+    line-height: 1.1;
 }
 
+@media(max-width:735px){
+    .about h3{
+        font-size: 4.5vw;
+      }
+    .about h2{
+        font-size: 9.8vw;
+    }
+    .about p{
+        font-size: 4.2vw;
+        
+    }
+}

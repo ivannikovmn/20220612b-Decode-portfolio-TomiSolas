@@ -26,7 +26,14 @@
 
 .blog-item div{
     padding: 5vh 5vh;
+    cursor: pointer;
+    
 }
+
+.blog-item a:hover{
+    background-color: #fab984;
+}
+
 
 .blog-item a{
     padding: 1vh 1.5vh;
@@ -45,6 +52,9 @@
 .blog-item h4{
     text-transform: uppercase;
     padding: 0vh 0vh 1vh 5vh;
+}
+.blog-item p{
+    line-height: 1.5;
 }
 
 .blog-hidden{
@@ -77,15 +87,42 @@
 
 .blog-more{
     border: 1px solid #fff;
-    padding: 10px 13px;
     border-radius: 10%;
     text-transform: uppercase;
-    font-size: 12px;
+    padding: 12px;
+    font-size: 1.1vw;
+    cursor: pointer;
 }
 
 .blog-comment{
     border: 1px solid #fff;
-    padding: 8px;
     border-radius: 10%;
+    padding: 12px;
+    font-size: 1.1vw;
+    cursor: pointer;
 }
 
+.blog-more:hover, .blog-comment:hover{
+    color: #fab984;
+    transition: .4s;
+}
+
+@media(max-width:735px){
+    .blog{
+        flex-direction: column;
+    }
+    .blog-item{
+        width: 100%;
+        padding-bottom: 8vh;
+        
+    }
+    .blog a, .blog spain, .blog h4, .blog p{
+        font-size: 3.2vw;
+    }
+    .blog-hidden p, .blog-more, .blog-comment {
+        font-size: 2.5vw;
+    }
+    /* .blog-item spain, .blog-item h4{
+        opacity: 0.0; 
+    } */
+}

@@ -2,7 +2,8 @@
     /* padding: 3vh; */
     display: flex;
     justify-content: space-between;
-    height: 59.6vh;
+    /* height: 59.6vh; */
+    /* height: 80%; */
 }
 
 .people-image, .people-text{
@@ -10,7 +11,7 @@
 }
 
 .people-image img{
-    width: 100%;
+    width: 50%;
     object-fit: cover; 
 }
 
@@ -22,8 +23,9 @@
     font-size: 5vw;
 }
 
-.people-text p{
+.people-text p, .people-info p, .people-text h4{
     padding-bottom: .5vw;
+    line-height: 2;
 }
 
 .people-info{
@@ -33,7 +35,7 @@
     padding-right: 3vw;
 }
 
-.people-info span{
+.people-info h4{
     font-size: 1.2vw;
     color: #aaa;
 }
@@ -44,3 +46,21 @@
     
 }
 
+@media(max-width:800px){
+    .people{
+        flex-direction: column;
+    }
+    .people h2{
+        font-size: 5.5vw;
+    }
+    .people p, .people h4{
+        font-size: 4.5vw;
+        line-height: 2;
+    }
+    .people h4{
+        padding-bottom: 5vw;
+    }
+    .people-image img{
+        width: 100%;
+    }
+}

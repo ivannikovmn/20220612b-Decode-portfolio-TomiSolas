@@ -38,7 +38,22 @@
     align-items: center;
     text-align: center;
     padding: 1.5vw; 
+    animation-name: anim;
+    animation-duration:1s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+    /* animation-direction: alternate; */
 }
+
+@keyframes anim{
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
 
 .services-more-item div{
     display: flex;
@@ -57,6 +72,7 @@
 
 .services-more-item p{
    padding-bottom: 1.5vw;
+   line-height: 2.2;
    color: #fff;
 }
 
@@ -84,7 +100,7 @@
 
 .service-icon i{
     /* font-size: 40px; */
-    font-size: 4.2vw;
+    font-size: 3.3vw;
     color: #ec9c5c;
     padding-top: 20px;
 }
@@ -104,10 +120,11 @@
 .service-items p{
     font-size: 1.2vw;
     /* line-height: 20px; */
-    line-height: 2.2vh;
+    line-height: 1.2;
     padding-left: 40px;
     padding-right: 20px;
 }
+
 
 @media(max-width:735px){
     .services h2{
@@ -132,5 +149,28 @@
     .service-item p{
         font-size: 3.2vw;
         line-height: 4.1vw;
+    }
+    .services-more{
+    flex-direction: column;
+    align-items: center;
+    }
+    .services-more-item{
+        text-align: center;
+        width: 70%; 
+    }
+    .services-more-item h2{ 
+        font-size: 9.8vw;
+    }
+    .services-more-item h3{ 
+        font-size: 6.5vw;
+        padding: 1.5vw; 
+    }
+    .services-more-item p{ 
+        padding-bottom: 2.5vw;
+        font-size: 4.5vw;
+        line-height: 1.1;
+    }
+    .services-more-item .read-more-button{
+        font-size: 4.5vw;
     }
 }

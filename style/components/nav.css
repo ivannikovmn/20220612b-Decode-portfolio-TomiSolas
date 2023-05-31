@@ -18,3 +18,16 @@
 .nav a{
     color: #fff;
 }
+
+@media(max-width:735px){
+    .nav{
+        padding: 20vh 1vw 10vh 2vh;
+    }  
+    .nav p:nth-child(1){
+        font-size: 9.8vw;
+        padding-bottom: 1vh;
+    }
+    .nav p:nth-child(2){
+        font-size: 8vw;
+    }
+}

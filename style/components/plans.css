@@ -1,5 +1,6 @@
 .plans{
     background-image: url("../../img/plans.webp");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,14 +12,19 @@
     background-size: cover;
     padding: 10vw 2vh;
     font-size: 2.8vw;
-    line-height: 4.5vw;
+    line-height: 1.5;
     color: #fff;
     text-transform: uppercase;
+}
+
+.plans-header p{
+    line-height: 1.5;
 }
 
 .plans > p{
     padding: 2vw 2vh 6vh;
     font-size: 1.5vw;
+    line-height: 1.5;
 }
 
 .plans-body{
@@ -58,7 +64,8 @@
 .plan-button{
     border: 2px solid #000;
     transition: .4s;
-    margin: 2vh 5vw;    
+    margin: 2vh 5vw;   
+    cursor: pointer; 
 }
 
 .plan-button a{
@@ -70,4 +77,32 @@
 
 .plan-button:hover a{
     color: #fff; 
+}
+
+@media(max-width:735px){
+    .plans h2{
+        font-size: 9.8vw;
+    }
+    .plans > p, .plans-header{
+        font-size: 4.2vw;
+        line-height: 1.1;
+    }
+    .plans-body{
+        display: block ;
+        width: 100%;
+    }    
+    .plan_item h3{
+        font-size: 9.8vw;
+    }
+    .plan_item h2{
+        font-size: 20.0vw;
+    }
+    .plan_item div{
+        font-size: 3.2vw;
+        line-height: 2.0;
+    }
+    .plan-button a{
+        font-size: 6.2vw;
+        padding: 2.5vh;
+    }
 }

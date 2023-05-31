@@ -11,12 +11,19 @@
 
 .portfolio-button{
     display: flex;
+    font-size: 1.2vw;
 }
 
 .portfolio-button div{
     margin: 5vh .5vw;
     border: solid 2px #fff;
     padding: 3.5vh 3.5vw;
+    cursor: pointer;
+}
+
+.portfolio-button div:first-child{
+    color: #000;
+    background-color: #fff;
 }
 
 .grid{
@@ -88,6 +95,7 @@
 }
 
 .portfolio-button2 div{
+    font-size: 1.2vw;
     border: solid 2px #fff;
     padding: 2.5vh 4.5vw;
     margin: 5.5vh 0 3vh 0;
@@ -95,6 +103,7 @@
 
 .portfolio-button2{
     position: relative;
+    cursor: pointer;
 }
 
 .portfolio-hidden{
@@ -119,5 +128,9 @@
 @media(max-width:735px){
     .portfolio h2{
         font-size: 9.4vw;
+    }
+    .portfolio-button , .portfolio-button2 div{
+        display: flex;
+        font-size: 2.5vw;
     }
 }

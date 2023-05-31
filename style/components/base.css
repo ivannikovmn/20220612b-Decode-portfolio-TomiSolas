@@ -61,10 +61,13 @@ p{
     font-family: Sans-serif;
     border: 2px solid #fff;
     padding: 20px 35px;
+    font-size: 1.6vw;
+    cursor: pointer;
 }
 
 .read-more-button a{
     color: #fff;
+    
 }
 
 .read-more-button:hover{

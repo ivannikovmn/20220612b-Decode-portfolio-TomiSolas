@@ -38,7 +38,7 @@
     padding: 0.5vw 0 1.5vw 0;
     background-color: #fff;
     color: #ec9c5c;
-    font-size: 1.2vw
+    font-size: 1.2vw;
 }
 
 @media(max-width:735px){
@@ -56,6 +56,6 @@
         line-height: 4.1vw;
     }
     .briefcase_item div{
-        font-size: 1.8vw;
+        font-size: 2.5vw;
     }
 }
