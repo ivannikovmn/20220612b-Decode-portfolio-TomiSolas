@@ -12,17 +12,16 @@
 <body>
     <header class="header" id="header">
         <div class="header-adaptive" onclick="changeBurgerMenu()">
-            <i class="jet-nav__mobile-trigger-open fa fa-bars" aria-hidden="true"></i>
+            <div class="icon-burger-menu">
+                <i class="jet-nav__mobile-trigger-open fa fa-bars" aria-hidden="true"></i>
+            </div>
             <div id="burger-menu">
                 <div class="menu-item">
                     <p> х </p>
                 </div>               
                 <div class="menu-item burger-menu-ckeck">
                     <p><a href="index.html">Home</a></p>
-                </div>          
-                <div class="menu-item">
-                    <p><a href="about.html">About1</a></p>
-                </div>    
+                </div>           
                 <div class="menu-item">
                     <p><a href="about.html">About</a></p>
                 </div>
@@ -40,10 +39,11 @@
                 </div>
             </div>
         </div>
+        
         <div class="header_item">
             <img src=".//img/logo.webp" alt="">
         </div>
-        <div class="header_item">
+        <div class="header_item header-full">
             <a class="check_url" href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="services.html">Services</a>
@@ -55,7 +55,7 @@
     <section class="container">
        <div class="main">
             <div class="main-slider">
-                <button onclick="changeImg(-1)" class="prev-btn" > 
+                <button onclick="changeImg(-1)" class="prev-btn" id="prev-btn"> 
                     <i class="fa-solid fa-chevron-left"></i>
                 </button>
                 <div class="main-slider-item">
@@ -68,11 +68,10 @@
                     </div>
                     <img id='image' src="" alt="" ">
                 </div>
-                <button onclick="changeImg(+1)" class="next-btn"> 
+                <button onclick="changeImg(+1)" class="next-btn" id="next-btn"> 
                     <i class="fa-solid fa-chevron-right"></i>
                 </button>
             </div>
-            <script src="js/slider.js"></script>
             <div class="main-item">
                 <div class="main-welcome">
                     <h2>
@@ -157,22 +156,22 @@
        <div class="testimonials">
             <div class="testimonials_header">
                 <div class="testimonials_header_item">
-                    <h2>750</h2>
+                    <h2 class="item" data-num="750">0</h2>
                     <div class="dashes testimonials-dash"></div>
                     <h3>AWARDS</h3>
                 </div>
-                <div class="testimonials_header_item">
-                    <h2>980</h2>
+                <div class="testimonials_header_item"> <!-- content -->
+                    <h2 class="item" data-num="980">0</h2>
                     <div class="dashes testimonials-dash"></div>
                     <h3>HAPPY CLIENTS</h3>
                 </div>
                 <div class="testimonials_header_item">
-                    <h2>810</h2>
+                    <h2 class="item" data-num="810">0</h2>
                     <div class="dashes testimonials-dash"></div>
                     <h3>PROJECTS COMPLETED</h3>
                 </div>
                 <div class="testimonials_header_item">
-                    <h2>630</h2>
+                    <h2 class="item" data-num="630">0</h2>
                     <div class="dashes testimonials-dash"></div>
                     <h3>COMMENTS</h3>
                 </div>
@@ -189,41 +188,48 @@
             </div>
        </div>
 
+ 
+
        <div class="portfolio">
             <h2>Portfolio</h2>
             <div class="dashes testimonials-dash"></div>
-            <div class="portfolio-button">
+
+            <div class="portfolio-button " id="top-content">  <!--top-content -->
+                <!-- 
                 <div> All</div>
                 <div>Category 1</div>
-                <div>Category 2</div>
-            </div>
-            <div class="grid">
-                    <div class="grid_item">
-                        <div class="grid-left"></div>
-                        <div class="grid-right"></div>
-                        <img src="img/grid1.jpg" alt="">
-                    </div>
-                    <div class="grid_item">
-                        <div class="grid-left"></div>
-                        <div class="grid-right"></div>
-                        <img src="img/grid2.jpg" alt="">
-                    </div>
-                    <div class="grid_item">
-                        <div class="grid-left"></div>
-                        <div class="grid-right"></div>
-                        <img src="img/grid3.jpg" alt="">
-                    </div>
-                    <div class="grid_item">
-                        <div class="grid-left"></div>
-                        <div class="grid-right"></div>
-                        <img src="img/grid4.jpg" alt="">
-                    </div>
-                    <div class="grid_item">
-                        <div class="grid-left"></div>
-                        <div class="grid-right"></div>
-                        <img src="img/grid5.jpg" alt="">
-                    </div>
+                <div>Category 2</div>               
+                 -->
             </div>   
+    
+            <div class="grid" id="items">  <!--items -->
+                <!-- <div class="grid_item">
+                    <div class="grid-left"></div>
+                    <div class="grid-right"></div>
+                    <img src="img/grid1.jpg" alt="">
+                </div>
+                <div class="grid_item">
+                    <div class="grid-left"></div>
+                    <div class="grid-right"></div>
+                    <img src="img/grid2.jpg" alt="">
+                </div>
+                <div class="grid_item">
+                    <div class="grid-left"></div>
+                    <div class="grid-right"></div>
+                    <img src="img/grid3.jpg" alt="">
+                </div>
+                <div class="grid_item">
+                    <div class="grid-left"></div>
+                    <div class="grid-right"></div>
+                    <img src="img/grid4.jpg" alt="">
+                </div>
+                <div class="grid_item">
+                    <div class="grid-left"></div>
+                    <div class="grid-right"></div>
+                    <img src="img/grid5.jpg" alt="">
+                </div> -->
+            </div>  
+            
             <div class="portfolio-button2">
                 <div>View all</div>
                 <spain class="portfolio-hidden">
@@ -270,9 +276,11 @@
             </div>
         </footer>
     </section> 
-    
-    <script src="js/burger-menu.js"></script>
     <script src="js/index_header.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/filter.js"></script>
     
 </body>
 </html>

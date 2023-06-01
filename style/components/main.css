@@ -128,7 +128,7 @@
 @media(max-width:1440px){
     .main-slider-item img{
         /* width: 500%; */
-        height: 21%;
+        height: 23%;
         background-size: cover;
     } 
 }
