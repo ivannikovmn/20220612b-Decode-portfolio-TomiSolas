@@ -1,8 +1,10 @@
 let src = [
     //указать прямые адреса когда будет на сервере 
     // либо ф-цию переписать чтобы if(image.src == src[i]) работал через 'img/main-slider1.jpg'
-    'http://127.0.0.1:5500/img/main-slider1.jpg',
-    'http://127.0.0.1:5500/img/main-slider2.jpg'
+    'https://ivannikovmn.github.io/20220612b-Decode-portfolio-TomiSolas/img/main-slider1.jpg',
+    'https://ivannikovmn.github.io/20220612b-Decode-portfolio-TomiSolas/img/main-slider2.jpg'
+    // 'http://127.0.0.1:5500/img/main-slider1.jpg',
+    // 'http://127.0.0.1:5500/img/main-slider2.jpg'
     // 'file:///G:/My%20Drive/20221027a%20Full-stack%20JavaScript/20221115a%20Decode/project2.2/img/main-slider1.jpg',
     // 'file:///G:/My%20Drive/20221027a%20Full-stack%20JavaScript/20221115a%20Decode/project2.2/img/main-slider2.jpg'
     // 'img/main-slider1.jpg',
