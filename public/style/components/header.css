@@ -1,0 +1,99 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    width: 100%;
+    transition: .5s;
+}
+ 
+.header_item{
+    display: flex;
+}
+
+.header_item img{
+    padding: 10px 0 30px; 
+    width: 25vw;
+}
+
+.header_item a{  
+    float: left;
+    display: block;
+    padding: 7px 23px 30px 23px;
+    color: #fff;
+    /* font-size: 18px; */
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    font-family: "Ubuntu", Sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    transition: .2s;
+}
+
+.header_item a:hover, .check_url{
+    border-bottom:3px solid #fff;
+}
+
+/* @media(max-width:980px){
+    .header{
+        background-color: #3f3640;
+    }
+} */
+
+.header-adaptive{
+    display: none;
+}
+
+/* 980 */
+ @media(max-width:1024px){
+    .header-adaptive {
+        display: block;
+        color: #fff;
+        /* position: absolute; */
+        /* top: 100%;
+        left: 3%; */
+        cursor: pointer;
+    }
+    .icon-burger-menu{
+        position: absolute;
+        top: 100%;
+        left: 3%;  
+    }
+    #burger-menu{
+        position: absolute;
+        top: 0; 
+        left: 0;
+        display: none;  
+    }
+    .burger-menu-ckeck{
+        border-bottom: 1.5px solid #fff;
+    }
+    .menu-item p{
+        background-color: #000;
+        font-size: 2.0vw;
+        text-transform: uppercase;
+        /* line-height: 3.1vw; */
+        font-family: "Ubuntu", Sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 5vw 15vw;
+        /* z-index: 10; */
+    }    
+    .menu-item:last-child p{
+        padding: 60vw 15vw;
+    }
+    .menu-item a{
+        color: #fff;
+    }
+    .menu-item:hover{
+        border-bottom: 1.5px solid #fff;
+        /* transition: 4s; */
+    }
+    .open-menu{
+        display: block !important;
+    }
+    .header-full {
+        display: none; 
+    }
+}

@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <%- include('partials/head.ejs') %>
+    <title>Document</title>
+</head>
+<body style="background-color: gray;">
+    <%- include('partials/header.ejs') %>
+    <section class="container">
+        <div class="main">
+            <form action="/api/signin" method="POST" class="form">
+                <br><br><br><br><br><br><br>
+                <h2>Sign in</h2>
+                <fieldset class="fieldset"><input type="email" placeholder="Введите email" name="email"></fieldset>
+                <fieldset class="fieldset"><input type="password" placeholder="Введите пароль" name="password"></fieldset>
+                <fieldset  class="fieldset"><button class="read-more-button" style="margin: 0;" type="submit">NEXT</button></fieldset>                
+                <!-- <p>
+                    Войти с помощью:
+                    <a href="/api/auth/google">Google</a>,
+                    <a href="/api/auth/github">GitHub</a>
+                </p> -->
+            </form>
+        </div>
+    </section>
+    <%- include('partials/scripts.ejs')%>  
+    <script>check_url("#Login")</script>  
+</body>
+</html>
